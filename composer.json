@@ -1,0 +1,24 @@
+{
+    "name": "spacecreatedd/composer",
+    "description": "this is a 4th lab",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "spacecreatedd",
+            "email": "kimzhenya1313@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+      },
+      "autoload": {
+        "psr-4": {
+          "Collect\\": "src/"
+        },
+        "files": [
+          "src/helpers.php"
+        ]
+    }
+}
